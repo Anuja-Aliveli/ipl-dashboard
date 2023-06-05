@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.not-container {
+    font-family: 'Bree Serif';
+    background-image: url("https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-not {
+    font-size: 40px;
+    color: #ffffff;
+}
+@media (max-width: 576px) {
+    .not-container {
+        background-image: url("https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png");
+    }
+}

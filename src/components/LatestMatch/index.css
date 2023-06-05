@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.latest-container {
+    height: 300px;
+    width: 100%;
+    background-color:  #0f172a;
+    font-family: "Bree-serif";
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.first-part-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+.team-text {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.text-main {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: end;
+}
+.latest-image {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+.second-part {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+@media (max-width: 576px) {
+    .latest-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .first-part-container {
+        flex-grow: 0;
+        justify-content: start;
+    }
+    .second-part {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 2px solid #475569;
+    }
+    .text-main {
+        font-size: 12px;
+    }
+    .team-text {
+        font-size: 20px;
+    }
+    .latest-image {
+        width: 100px;
+height: 100px;        
+    }
+    .text {
+        text-align: start;
+    }
+}

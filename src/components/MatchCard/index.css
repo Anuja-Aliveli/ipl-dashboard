@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.card {
+  background-color: #0f172a;
+  border-radius: 10px;
+  font-family: 'Bree serif';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 30%;
+flex-grow: 1;
+}
+.card-image {
+width: 70px;
+height: 70px;
+}
+.team-head {
+color: #ffffff;
+font-size: 20px;
+text-align: center;
+}
+.team-result {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+}
+.status-lost {
+    color: #e31a1a;
+    font-size: 20px;
+    margin-top: 0;
+}
+.status-won {
+    color: #18ed66;
+    font-size: 20px;
+    margin-top: 0;
+}
+@media (max-width: 576px) {
+    .card {
+        width: 40%;
+        flex-grow: 0;
+    }
+    .team-head {
+        font-size: 15px;
+    }
+    .team-result {
+        font-size: 10px;
+    }
+    .status-lost {
+        font-size: 10px;
+    }
+    .status-won {
+        font-size: 10px;
+    }
+}
